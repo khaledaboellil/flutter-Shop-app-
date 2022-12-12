@@ -23,7 +23,7 @@ This project is a starting point for a Flutter application.
 ## Search screen
 <img src="https://user-images.githubusercontent.com/63354831/207143695-d551056f-7e78-4e04-bbf3-c3d613abef5e.jpg" width="200" height="400" />
 
-## catogries 
+## update user & Logout 
 <img src="https://user-images.githubusercontent.com/63354831/207143759-6cd6e806-9a08-4e4f-8a55-5d1a0fe3f2b9.jpg" width="200" height="400" />
 
 
