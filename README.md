@@ -2,7 +2,8 @@
 A Simple Shop app  project.
 
 ## Getting Started
-This project is a starting point for a Flutter application.
+This project is a Simple shop app that the user can Register , login  , pick favouriet item  and search for any item
+(API , DIO , cache , crasouel , cubit , postman , toast  )
 
 ## on Borading screen 
 <img src="https://user-images.githubusercontent.com/63354831/207138539-6b60ce65-423a-4e6f-8524-b61b9e2555f1.jpg" width="200" height="400" />
@@ -22,6 +23,8 @@ This project is a starting point for a Flutter application.
 
 ## Search screen
 <img src="https://user-images.githubusercontent.com/63354831/207143695-d551056f-7e78-4e04-bbf3-c3d613abef5e.jpg" width="200" height="400" />
+
+## Cateogerios screen
 
 ## update user & Logout 
 <img src="https://user-images.githubusercontent.com/63354831/207143759-6cd6e806-9a08-4e4f-8a55-5d1a0fe3f2b9.jpg" width="200" height="400" />
