@@ -5,12 +5,15 @@ A Simple Shop app  project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-##Login Screen 
-![1670873445853](https://user-images.githubusercontent.com/63354831/207138539-6b60ce65-423a-4e6f-8524-b61b9e2555f1.jpg)
+
+##on Borading screen 
+
+![1670873445853](https://user-images.githubusercontent.com/63354831/207138539-6b60ce65-423a-4e6f-8524-b61b9e2555f1.jpg |width=200 |height=400)
 
 
 ##Register Screen
-![1670873445837](https://user-images.githubusercontent.com/63354831/207138391-6b7f084b-3b65-4088-820f-b815e1da3f5c.jpg)
+
+![1670873445837](https://user-images.githubusercontent.com/63354831/207138391-6b7f084b-3b65-4088-820f-b815e1da3f5c.jpg |width=200 |height=400)
 
 ##shop layout
 ![1670873445821](https://user-images.githubusercontent.com/63354831/207138491-b49ef56e-378b-4155-a797-0e9b70adcbb6.jpg)
