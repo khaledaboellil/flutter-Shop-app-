@@ -3,7 +3,7 @@ A Simple Shop app  project.
 
 ## Getting Started
 This project is a Simple shop app that the user can Register , login  , pick favouriet item  and search for any item
-(API , DIO , cache , crasouel , cubit , postman , toast  )
+(API,dart models for recive json data , DIO , cache , crasouel , cubit , postman , toast  )
 
 ## on Borading screen 
 <img src="https://user-images.githubusercontent.com/63354831/207138539-6b60ce65-423a-4e6f-8524-b61b9e2555f1.jpg" width="200" height="400" />
