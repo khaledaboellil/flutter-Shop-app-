@@ -7,8 +7,8 @@ A Simple Shop app  project.
 This project is a starting point for a Flutter application.
 
 ##on Borading screen 
+<img src="https://user-images.githubusercontent.com/63354831/207138539-6b60ce65-423a-4e6f-8524-b61b9e2555f1.jpg" width="200" height="400" />
 
-![1670873445853](https://user-images.githubusercontent.com/63354831/207138539-6b60ce65-423a-4e6f-8524-b61b9e2555f1.jpg =250x250 )
 
 
 ##Register Screen
