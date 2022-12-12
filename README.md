@@ -8,7 +8,7 @@ This project is a starting point for a Flutter application.
 
 ##on Borading screen 
 
-![1670873445853](https://user-images.githubusercontent.com/63354831/207138539-6b60ce65-423a-4e6f-8524-b61b9e2555f1.jpg |width=200 )
+![1670873445853](https://user-images.githubusercontent.com/63354831/207138539-6b60ce65-423a-4e6f-8524-b61b9e2555f1.jpg | width=100 )
 
 
 ##Register Screen
