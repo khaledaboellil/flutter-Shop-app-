@@ -25,6 +25,7 @@ This project is a Simple shop app that the user can Register , login  , pick fav
 <img src="https://user-images.githubusercontent.com/63354831/207143695-d551056f-7e78-4e04-bbf3-c3d613abef5e.jpg" width="200" height="400" />
 
 ## Cateogerios screen
+<img src="https://user-images.githubusercontent.com/63354831/207148773-ac1085c0-7edf-43d9-9a77-2bf6a0761521.jpg" width="200" height="400" />
 
 ## update user & Logout 
 <img src="https://user-images.githubusercontent.com/63354831/207143759-6cd6e806-9a08-4e4f-8a55-5d1a0fe3f2b9.jpg" width="200" height="400" />
