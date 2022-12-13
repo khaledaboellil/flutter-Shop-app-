@@ -18,6 +18,9 @@ This project is a Simple shop app that the user can Register , login  , pick fav
 ## Shop app Screen
 <img src="https://user-images.githubusercontent.com/63354831/207139485-f63c266d-e39e-43d4-9dc1-f09286db7905.jpg" width="200" height="400" />
 
+## Product details Screen
+<img src="https://user-images.githubusercontent.com/63354831/207298291-f69b7cd9-c4af-4e2a-b132-2bea1cae6010.jpg" width="200" height="400" />
+
 ## favourite Screen 
 <img src="https://user-images.githubusercontent.com/63354831/207143652-72467f0e-b50c-406a-84ba-49ec37797f01.jpg" width="200" height="400" />
 
