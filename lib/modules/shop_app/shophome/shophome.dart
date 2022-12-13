@@ -11,6 +11,7 @@ import 'package:todo_app/models/categoriesModel/categoriesmodel.dart';
 
 import '../../../shared/comapnents/companents.dart';
 import '../../../shared/comapnents/constans.dart';
+import '../Productdetails/prodtuctdetails_screen.dart';
 
 class ShopHome extends StatelessWidget {
 
@@ -112,7 +113,8 @@ class ShopHome extends StatelessWidget {
             mainAxisSpacing: 1,
             crossAxisSpacing: 1,
             childAspectRatio: 1/1.55,
-            children: List.generate(model.data!.products.length, (index) => buildGridProduct(model.data!.products[index],context)) ,
+
+            children:List.generate(model.data!.products.length, (index) => buildGridProduct(model.data!.products[index],context)) ,
 
         ),
       ],
@@ -144,89 +146,94 @@ class ShopHome extends StatelessWidget {
 
     ],
   ) ;
-  Widget buildGridProduct(ProductModel model,context)=>Container(
-    color: Colors.white,
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Stack(
-          alignment: AlignmentDirectional.bottomStart,
-          children: [
-            Image(image: NetworkImage('${model.image}'),
-            width: double.infinity,
-            height: 200,
-            ),
-            if(model.discount!=0)
-            Container(
-              color: Colors.red,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 5),
-                child: Text(
-                    'DISCOUNT',
-                  style: TextStyle(
-                    fontSize: 8,
-                    color: Colors.white ,
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
-        Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+  Widget buildGridProduct(ProductModel model,context)=>GestureDetector(
+    onTap: (){
+      navigateTo(context, Productdetails_screen(model));
+    },
+    child: Container(
+      color: Colors.white,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Stack(
+            alignment: AlignmentDirectional.bottomStart,
             children: [
-              Text(
-                '${model.name}' ,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  fontSize: 14,
-                  height: 1.3
-                ),
-
+              Image(image: NetworkImage('${model.image}'),
+              width: double.infinity,
+              height: 200,
               ),
-              Row(
-                children: [
-                  Text(
-                    '${model.price.round()}' ,
-
+              if(model.discount!=0)
+              Container(
+                color: Colors.red,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 5),
+                  child: Text(
+                      'DISCOUNT',
                     style: TextStyle(
-                        color: defaultcolor,
-                        fontSize: 12,
+                      fontSize: 8,
+                      color: Colors.white ,
                     ),
-
                   ),
-                  SizedBox(width: 5,),
-                  if(model.discount!=0)
-                  Text(
-
-                    '${model.oldPrice.round()}' ,
-
-                    style: TextStyle(
-                        color: Colors.grey,
-                        fontSize: 10,
-                        decoration:TextDecoration.lineThrough ,
-                    ),
-
-                  ),
-                  Spacer(),
-                  CircleAvatar(
-                    backgroundColor: istrue(HomeCubit.get(context).fav[model.id]) ? defaultcolor : Colors.grey,
-                    child: IconButton(onPressed: (){
-                        HomeCubit.get(context).changeButtonColor(model.id) ;
-
-                    },
-                      icon: Icon(Icons.favorite_border),
-                      color: Colors.white,),
-                  ),
-                ],
+                ),
               ),
             ],
           ),
-        ),
-      ],
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '${model.name}' ,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    fontSize: 14,
+                    height: 1.3
+                  ),
+
+                ),
+                Row(
+                  children: [
+                    Text(
+                      '${model.price.round()}' ,
+
+                      style: TextStyle(
+                          color: defaultcolor,
+                          fontSize: 12,
+                      ),
+
+                    ),
+                    SizedBox(width: 5,),
+                    if(model.discount!=0)
+                    Text(
+
+                      '${model.oldPrice.round()}' ,
+
+                      style: TextStyle(
+                          color: Colors.grey,
+                          fontSize: 10,
+                          decoration:TextDecoration.lineThrough ,
+                      ),
+
+                    ),
+                    Spacer(),
+                    CircleAvatar(
+                      backgroundColor: istrue(HomeCubit.get(context).fav[model.id]) ? defaultcolor : Colors.grey,
+                      child: IconButton(onPressed: (){
+                          HomeCubit.get(context).changeButtonColor(model.id) ;
+
+                      },
+                        icon: Icon(Icons.favorite_border),
+                        color: Colors.white,),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
     ),
   );
 
