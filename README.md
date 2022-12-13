@@ -2,7 +2,7 @@
 A Simple Shop app  project.
 
 ## Getting Started
-This project is a Simple shop app that the user can Register , login  , pick favouriet item  and search for any item
+This project is a Simple shop app that the user can Register , login  ,see product details, pick favouriet item  and search for any item
 (API,dart models for recive json data , DIO , cache , crasouel , cubit , postman , toast  )
 
 ## on Borading screen 
